@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 2rem 0;
+}
+header h1 {
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 2rem;
+}
+.main-content .hero img {
+  text-align: center;
+  max-width: 25%;
+  height: auto;
+  border: 5px solid #3498db;
+  margin-bottom: 3rem;
+}
+.main-content section {
+  margin-bottom: 2rem;
+}
+.main-content .images-section img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #3498db;
+}
+.main-content .text-section {
+  color: #333;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.main-content .video-section h2 {
+  margin-top: 3rem;
+}
+.main-content .video-section video {
+  max-width: 100%;
+  border: 2px solid #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
